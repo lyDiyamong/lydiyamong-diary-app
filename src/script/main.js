@@ -52,9 +52,9 @@ const CreateNote = () => {
             <div class="note-header">
                 <span>${item.dateInput}</span>
                 <div>
-                    <img class="view-btn" data-id="${id}" src="/lydiyamong-diary-web/src/images/icons/View.svg" alt="">
-                    <img class="edit-btn" data-id="${id}" src="/lydiyamong-diary-web/src/images/icons/Edit.svg" alt="">
-                    <img class="delete-btn" data-id="${id}" src="/lydiyamong-diary-web/src/images/icons/Delete.svg" alt="">
+                    <img class="view-btn" data-id="${id}" src="/lydiyamong-diary-app/src/images/icons/View.svg" alt="">
+                    <img class="edit-btn" data-id="${id}" src="/lydiyamong-diary-app/src/images/icons/Edit.svg" alt="">
+                    <img class="delete-btn" data-id="${id}" src="/lydiyamong-diary-app/src/images/icons/Delete.svg" alt="">
                 </div>
             </div>
             <div class="note-title">
