@@ -126,3 +126,11 @@ const viewDetail = (id) => {
     window.location.href = `view.html?index=${id}`;
 };
 document.addEventListener('DOMContentLoaded', CreateNote);
+// function for reset input when click on cancel
+export const resetForm = () => {
+    titleInput.value = '';
+    descInput.value = '';
+    dateInput.value = '';
+    message.innerHTML = '';
+    editIndex = -1;
+};

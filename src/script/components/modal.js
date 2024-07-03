@@ -1,3 +1,4 @@
+import { resetForm } from "../main.js";
 // create form template
 class Modal extends HTMLElement {
     connectedCallback() {
@@ -64,6 +65,7 @@ export const closeModal = () => {
     setTimeout(() => {
         modal.style.display = "none";
     }, 300);
+    resetForm()
 }
 
 //  open the modal
