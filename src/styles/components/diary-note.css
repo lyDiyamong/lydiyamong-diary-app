@@ -25,6 +25,13 @@
     white-space: nowrap;
 
 }
+.note-header div img{
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.note-header div img:hover {
+    transform: scale(1.2);
+}
 
 .note-title {
     font-family: var(--font-family__header-roboto);
@@ -34,7 +41,9 @@
 }
 
 .note-text {
-    padding: 10px ;
+    max-height: 230px;
+    padding: 10px;
+    overflow-y: hidden;
 
 }
 
