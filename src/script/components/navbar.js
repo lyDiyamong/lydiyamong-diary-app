@@ -14,7 +14,7 @@ const createNavbar = (items) => (`
                     <img src=${item.menuImg} alt="menu icon">
                 </div>
                 <div class="logo-container">
-                    <a href="/lydiyamong-diary-web/index.html">
+                    <a href="/lydiyamong-diary-app/index.html">
                         <img src=${item.logoImg} alt="logo">
                     </a>  
                 </div>

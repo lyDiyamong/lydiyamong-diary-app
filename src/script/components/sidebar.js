@@ -13,7 +13,7 @@ const createSidebar = (menu) =>{
                 <!-- logo container -->
                 <div class="sidebar-logo-container">
                     <div class="sidebar-logo">
-                        <img src="/lydiyamong-diary-web/src/images/pics/logo_transparent.png" alt="logo">
+                        <img src="/lydiyamong-diary-app/src/images/pics/logo_transparent.png" alt="logo">
                     </div>
                 </div>
                 <!-- start sidebar content -->
