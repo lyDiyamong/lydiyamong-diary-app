@@ -61,13 +61,15 @@ const sidebarToggle = document.getElementById('sidebar-toggle')
 const closeToggle = document.getElementById('close-sidebar')
 
 menuToggle.addEventListener('click', () => {
-    sidebarToggle.style.width = '275px'
+    sidebarToggle.style.width = '275px';
+    document.body.classList.add('no-scroll');
 })
 
 closeToggle.addEventListener('click', () => {
     if (sidebarToggle && window.innerWidth <= 1280) {
         sidebarToggle.style.width = '0px';
         sidebarToggle.style.overflowX = 'hidden';
+        document.body.classList.remove('no-scroll');
     }
 })
 

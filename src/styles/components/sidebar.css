@@ -34,6 +34,10 @@
     margin-top: 50px;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .sidebar-container-sub h3{
     font-family: var(--font-family__header-roboto);
     margin-bottom: 10px;
