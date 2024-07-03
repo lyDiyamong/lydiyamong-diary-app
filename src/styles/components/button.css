@@ -1,0 +1,120 @@
+@import url(../styles.css);
+/* start add button */
+.add-button {
+    position: relative;
+    width: 205px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: var(--bg-color-primary-300);
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: var(--margin-y-gap);
+}
+
+.add-button, .button-icon, .button-text {
+transition: all 0.3s;
+}
+
+.add-button .button-text {
+transform: translateX(22px);
+color: #000;
+font-weight: 600;
+}
+
+.add-button .button-icon {
+position: absolute;
+transform: translateX(165px);
+height: 100%;
+width: 39px;
+background-color: var(--bg-color-primary-400);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.add-button .img {
+width: 20px;
+fill: #fff;
+}
+
+.add-button:hover {
+background: var(--bg-color-primary-300);
+}
+
+.add-button:hover .button-text {
+color: transparent;
+}
+
+.add-button:hover .button-icon {
+width: 205px;
+transform: translateX(0);
+}
+
+.add-button:active .button-icon {
+background-color: var(--bg-color-second-100);
+}
+
+.add-button:active {
+border: 1px solid #000;
+}
+
+.add-note-btn-mobile {
+    display: none;
+}
+/* responsive mobile screen */
+@media (max-width: 767px) {
+    .add-button{
+        display : none;
+    }
+
+    .add-note-btn-mobile {
+        position: fixed;
+        right: 5%;
+        bottom: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        padding: 5px;
+        border: none;
+        background-color: #000;
+    }
+}
+  /* end add button */
+
+/* start back to list-page button */
+.back-btn {
+    margin-bottom: var(--margin-y-gap);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    background-color: var(--bg-color-primary-400);
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid #000;
+    padding: 10px 15px;
+  }
+  
+.back-btn > img {
+margin-left: 5px;
+transition: all 0.4s ease-in;
+}
+
+.back-btn:hover > img {
+font-size: 1.2em;
+transform: translateX(-6px);
+}
+
+.back-btn:hover {
+box-shadow: 10px 10px 40px #d1d1d1;
+transform: translateY(-5px);
+}
+/* end back to list-page button */

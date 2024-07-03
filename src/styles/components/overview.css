@@ -1,0 +1,20 @@
+@import url(../styles.css);
+
+.mid-section-container {
+    max-width: 1040px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+}
+
+/* .overview-notes-container {
+    margin-top: var(--margin-y-gap);
+} */
+
+@media (max-width : 767px) {
+    .mid-section-container {
+        grid-template-columns: 1fr;
+    }
+}

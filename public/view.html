@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../src/styles/styles.css">
+    <title>View Diary</title>
+</head>
+<body>
+    <!-- start navbar -->
+    <navbar-component data-source="navbar-data"></navbar-component>
+    <!-- end navbar -->
+    <!-- start main section -->
+    <main>
+        <!-- start sidebar -->
+        <sidebar-component data-source="sidebar-data"></sidebar-component>
+        <!-- end sidebar -->
+
+        <!-- start main content -->
+        <section class="main-content-container">
+            <section class="section-content-container">
+                <!--start header -->
+                <header-component data-source="header-data"></header-component>
+                <button class="back-btn" onclick="window.history.back()">
+                    <img src="../src/images/icons/Back.svg" alt="">
+                    <span>Back</span>
+                </button>
+                <!-- end header -->
+                <article class="note-details">
+                    <span class="detail-date" id="note-date"></span>
+                    <h2 class="detail-title" id="note-title"></h2>
+                    <p class="detail-desc" id="note-desc"></p>
+                </article>
+                
+                <!-- notes container -->
+            </section>
+        </section>
+        <!-- end main content  -->
+    </main>
+    <footer-component></footer-component>
+    <!-- navbar component -->
+    <script src="../src/script/components/navbar.js" type="module"></script>
+    <!-- header component -->
+    <script src="../src/script/components/header.js" type="module"></script>
+    <!-- sidebar component -->
+    <script src="../src/script/components/sidebar.js" type="module"></script>
+    <!-- footer component -->
+     <script src="../src/script/components/footer.js"></script>
+    <!-- CRUD function -->
+    <script src="../src/script/main.js" type="module"></script>
+    <!-- view.js -->
+    <script src="../src/script/view.js"></script>
+</body>
+</html>

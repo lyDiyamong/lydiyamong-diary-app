@@ -1,0 +1,14 @@
+@import url(../styles.css);
+.main-content-container {
+    width: 100%;
+    max-width: var(--main-content-container);
+    padding: 30px;
+}
+
+
+/*i nner section content container */
+.section-content-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}

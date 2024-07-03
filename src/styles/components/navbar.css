@@ -1,0 +1,46 @@
+@import url(../styles.css);
+
+.navbar {
+    display: none;
+    background-color: var(--bg-color-second-100);
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-inner {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-container {
+    width: 80px;
+    height: 80px;
+}
+.logo-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.profile-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+/* responsive laptop screen*/
+@media (max-width: 1280px) {
+    .navbar {
+        display: block;
+    }
+}

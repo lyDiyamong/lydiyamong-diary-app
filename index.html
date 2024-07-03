@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <!-- Icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Diary App</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+    <navbar-component data-source="navbar-data"></navbar-component>
+    <!-- end navbar -->
+    <!-- start main section -->
+    <main>
+        <!-- start sidebar -->
+        <sidebar-component data-source="sidebar-data"></sidebar-component>
+        <!-- end sidebar -->
+
+        <!-- start main content -->
+        <section class="main-content-container">
+            <div class="main-inner">
+                <!--start header -->
+                <header-component data-source="header-data"></header-component>
+                <!-- end header -->
+                <section class="section-content-container">
+                    <!-- start hero content -->
+                    <div class="hero-content">
+                        <div class="hero-text-container">
+                            <h2>Hey, Diyamong</h2>
+                            <h4>What's on your mind?</h4>
+                        </div>
+                        <div class="hero-img-container">
+                            <img src="./src/images/pics/hero-content.svg" alt="working">
+                        </div>
+                    </div>
+                    <!-- end hero content -->
+                    <div class="mid-section-container">
+                        <!-- start calendar -->
+                        <calendar-component></calendar-component>
+                        <!-- end calendar -->
+                        <!-- start recent note -->
+                        <div id="first-note" class="overview-notes-container">
+                            <h4>Recent Note</h4>
+                        </div>
+                        <!-- end recent note -->
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- end main content  -->
+    </main>
+    <footer-component></footer-component>
+    <!-- navbar component -->
+    <script src="./src/script/components/navbar.js" type="module"></script>
+    <!-- header component -->
+     <script src="./src/script/components/header.js" type="module"></script>
+    <!-- sidebar component -->
+    <script src="./src/script/components/sidebar.js" type="module"></script>
+    <!-- calendar component -->
+    <script src="./src/script/components/calendar.js"></script>
+    <!-- footer component -->
+     <script src="./src/script/components/footer.js"></script>
+     <!-- dashboard to get recent note -->
+     <script src="./src/script/dashboard.js"></script>
+</body>
+
+</html>

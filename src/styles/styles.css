@@ -1,0 +1,51 @@
+/* Source code Pro font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/* Roboto Mono font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* component url */
+@import url(./components/index.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-content-container: 1500px;
+    --sidebar-width : 417px;
+    --sidebar__content-width: 329px;
+    --font-family__header-roboto: "Roboto Mono", monospace;
+    --font-family__text-scp: "Source Code Pro", monospace;
+    --bg-color-primary-100: #f5f3ea;
+    --bg-color-primary-200: #FBF7EC;
+    --bg-color-primary-300: #FFF6E0;
+    --bg-color-primary-400: #FFF1DC;
+    --bg-color-primary-400 : #F0D6B3;
+    --bg-color-second-100: #918072;
+    --bg-color-accent-100: #888888;
+    --c-text-primary: #1F1F25;
+    --c-text-secondary: #999FA6;
+    --btn-submit-color : #0D6EFD;
+    --sidebar__navigate-link-br : 20px;
+    --note-task-link-br : 30px;
+    --tasks-note-width: 320px;
+    --tasks-note-height: 350px;
+    --margin-y-gap : 40px;
+}
+
+body {
+    background-color: var(--bg-color-primary-200);
+    font-family: var(--font-family__text-scp);
+}
+
+main{
+    display: flex;
+}
+
+/* default a tag */
+a {
+    text-decoration: none;
+    color: black;
+}

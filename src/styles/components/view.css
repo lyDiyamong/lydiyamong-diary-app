@@ -1,0 +1,28 @@
+@import url(../styles.css);
+
+.note-details {
+    max-width: 852px;
+    width: 100%;
+    border: black 1px solid;
+    min-height: 445px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: var(--note-task-link-br);
+}
+.note-details .detail-date {
+    font-size: 14px;
+    color: var(--bg-color-accent-100);
+}
+.note-details .detail-title {
+    font-family: var(--font-family__header-roboto);
+    font-weight: 500;  
+    font-size: 32px;
+    padding: 15px 0;
+    border-bottom: 1px  solid var(--bg-color-accent-100);
+}
+.note-details .detail-desc {
+    padding-top: 15px;
+    white-space: pre-wrap;
+    line-height: 30px;
+    overflow-y: auto;
+}
