@@ -1,7 +1,7 @@
 export const NavbarData = [
     {
-        menuImg : '/lydiyamong-diary-app/src/images/icons/Menu.svg',
-        logoImg : '/lydiyamong-diary-app/src/images/pics/logo_transparent.png',
-        pfImg : '/lydiyamong-diary-app/src/images/pics/shrek.jpeg'
+        menuImg : '/src/images/icons/Menu.svg',
+        logoImg : '/src/images/pics/logo_transparent.png',
+        pfImg : '/src/images/pics/shrek.jpeg'
     }
 ]
