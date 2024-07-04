@@ -1,22 +1,22 @@
 export const SidebarData = [
     {
-        link : '/index.html',
-        img : '/src/images/icons/Dashboard.svg',
+        link : '/lydiyamong-diary-web/index.html',
+        img : '/lydiyamong-diary-web/src/images/icons/Dashboard.svg',
         text : 'Dashboard'
     },
     {
-        link : '/public/list.html',
-        img : '/src/images/icons/List.svg',
+        link : '/lydiyamong-diary-web/public/list.html',
+        img : '/lydiyamong-diary-web/src/images/icons/List.svg',
         text : 'List'
     },
     {
         link : '#',
-        img : '/src/images/icons/Help.svg',
+        img : '/lydiyamong-diary-web/src/images/icons/Help.svg',
         text : 'Help'
     },
     {
         link : '#',
-        img : '/src/images/icons/Setting.svg',
+        img : '/lydiyamong-diary-web/src/images/icons/Setting.svg',
         text : 'Setting'
     }
 ]
